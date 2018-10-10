@@ -2,7 +2,7 @@ html {
   background-color: #fdf6e3;
 }
 
-header,footer {
+header, footer {
   font-size: 1.5rem;
 }
 
@@ -12,4 +12,48 @@ nav ul {
 
 .logo {
   text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
+}
+
+main > dfn {
+  background-color: #b58900;
+}
+
+div > strong {
+  color: #fff;
+}
+
+a:not(.nohighlight) {
+  background-color: #719e07;
+}
+
+ul li [rel="external"] {
+  background-color: #2694d8;
+}
+
+ol li:nth-child(1) {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types :nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types :nth-child(even) {
+  background-color: #586e75;
+}
+
+.types :nth-child(3n) {
+  background-color: #d04b16;
 }
